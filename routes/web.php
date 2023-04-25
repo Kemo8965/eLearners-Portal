@@ -59,6 +59,11 @@ Route::get('/grades', function () {
     return view('grades.grades');
 });
 
+Route::get('/grades2', function () {
+    return view('grades.grades2');
+});
+
+
 Route::get('/grade10', function () {
     return view('grades.grade10.g10-dashboard');
 });
@@ -75,15 +80,42 @@ Route::get('/grade12', function () {
     return view('grades.g12-dashboard');
 });
 
-Route::get('/outcomes', function () {
-    return view('lessons.outcomes');
+Route::get('/outcomes1', function () {
+    return view('grades.grade10.subjects.mathematics.topics.index notation.indices.lessons.outcomes1');
 });
 
 Route::get('/outcomes2', function () {
-    return view('lessons.outcomes2');
+    return view('grades.grade10.subjects.mathematics.topics.index notation.indices.lessons.outcomes2');
+});
+
+Route::get('/outcomes3', function () {
+    return view('grades.grade10.subjects.mathematics.topics.index notation.indices.lessons.outcomes3');
+});
+
+Route::get('/outcomes4', function () {
+    return view('grades.grade10.subjects.mathematics.topics.index notation.indices.lessons.outcomes4');
 });
 
 
+//------------------ALGEBRA----------------------//
+
+Route::get('/algebraOutcomes1', function () {
+    return view('grades.grade10.subjects.mathematics.topics.algebra.lessons.outcomes1');
+});
+
+Route::get('/algebraOutcomes2', function () {
+    return view('grades.grade10.subjects.mathematics.topics.algebra.lessons.outcomes2');
+});
+
+Route::get('/algebraOutcomes3', function () {
+    return view('grades.grade10.subjects.mathematics.topics.algebra.lessons.outcomes3');
+});
+
+
+//-----------------------MATRICES------------------------------------
+Route::get('/matrixOutcomes1', function () {
+    return view('grades.grade10.subjects.mathematics.topics.matrices.lessons.outcomes1');
+});
 
 
 

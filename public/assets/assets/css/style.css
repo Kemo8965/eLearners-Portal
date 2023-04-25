@@ -144,7 +144,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  color: #47536e;
+  color: #a4b4d7;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -165,7 +165,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #5777ba;
+  background: #98a5c1;
   color: #fff;
   padding: 12px 25px;
   margin-left: 30px;

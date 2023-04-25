@@ -5,8 +5,8 @@
  <div id="outcomes" class="user-profile text-center mt-3">
      <div class="">
          <a href="/" class="auth-logo">
-             <img src="assets/auth/images/coa.png" height="60" class="logo-dark mx-auto" alt="">
-             <img src="assets/auth/images/coa.png" height="60" class="logo-light mx-auto" alt="">
+             <img src="assets/auth/images/coa.png" height="100" class="logo-dark mx-auto" alt="">
+             <img src="assets/auth/images/coa.png" height="100" class="logo-light mx-auto" alt="">
          </a>
      </div>
      <!-- @if( auth()->check() )
@@ -146,35 +146,57 @@
                                              <li><a href="javascript: void(0);" class="has-arrow">Outcomes</a>
                                                  <ul class="sub-menu" aria-expanded="true" label="Outcomes">
 
-                                                     <li><a href="#" onclick="getOutcomes()">Apply Higher Operations on Sets</a></li>
-                                                     <li><a href="#" onclick="getOutcomes2()">Simplify Positive, Negative</a></li>
-                                                     <li><a href="layouts-preloader.html">Simplify Fractional Indices</a></li>
-                                                     <li><a href="layouts-colored-sidebar.html">Solve Equations involving Indices</a></li>
+                                                     <li><a href="#" onclick="getIndicesOutcomes1()">Apply Higher Operations on Sets</a></li>
+                                                     <li><a href="#" onclick="getIndicesOutcomes2()">Simplify Positive, Negative</a></li>
+                                                     <li><a href="#" onclick="getIndicesOutcomes3()">Simplify Fractional Indices</a></li>
+                                                     <li><a href="#" onclick="getIndicesOutcomes4()">Solve Equations involving Indices</a></li>
 
                                                  </ul>
                                              </li>
                                          </ul>
                                      </li>
-                                     <li><a href="layouts-icon-sidebar.html">Sub-topic 2</a></li>
-                                     <li><a href="layouts-boxed.html">Sub-topic 3</a></li>
-                                     <li><a href="layouts-preloader.html">Sub-topic 4</a></li>
-                                     <li><a href="layouts-colored-sidebar.html">Sub-topic 5</a></li>
+                                     
                                  </ul>
 
                              </li>
                              <li><a href="javascript: void(0);" class="has-arrow">Algebra</a>
-                                 <ul class="sub-menu" aria-expanded="true">
-                                     <li><a href="layouts-compact-sidebar.html">Sub-topic 1</a></li>
-                                     <li><a href="layouts-icon-sidebar.html">Sub-topic 2</a></li>
-                                     <li><a href="layouts-boxed.html">Sub-topic 3</a></li>
-                                     <li><a href="layouts-preloader.html">Sub-topic 4</a></li>
-                                     <li><a href="layouts-colored-sidebar.html">Sub-topic 5</a></li>
+                             <ul class="sub-menu" aria-expanded="true">
+                                     <li><a href="javascript: void(0);" class="has-arrow">Basic Processes</a>
+                                         <ul class="sub-menu" aria-expanded="true">
+                                             <li><a href="javascript: void(0);" class="has-arrow">Outcomes</a>
+                                                 <ul class="sub-menu" aria-expanded="true" label="Outcomes">
+
+                                                     <li><a href="#" onclick="getAlgebraOutcomes1()">Expand and Simplify Expressions</a></li>
+                                                     <li><a href="#" onclick="getAlgebraOutcomes2()">Factorize Algebraic Expressions</a></li>
+                                                     <li><a href="#" onclick="getAlgebraOutcomes3()">Simplify Algebraic Expressions</a></li>
+
+
+                                                 </ul>
+                                             </li>
+                                         </ul>
+                                     </li>
+                                     
                                  </ul>
 
+
                              </li>
-                             <li><a href="javascript: void(0);" class="has-arrow">Matrices</a>
+                            
+                                 <li><a href="javascript: void(0);" class="has-arrow">Matrices</a>
                                  <ul class="sub-menu" aria-expanded="true">
-                                     <li><a href="layouts-compact-sidebar.html">Sub-topic 1</a></li>
+                                     <li><a href="javascript: void(0);" class="has-arrow">Transpose a Matrix</a>
+                                         <ul class="sub-menu" aria-expanded="true">
+                                             <li><a href="javascript: void(0);" class="has-arrow">Outcomes</a>
+                                                 <ul class="sub-menu" aria-expanded="true" label="Outcomes">
+
+                                                     <li><a href="#" onclick="getMatrixOutcomes1()">Find a Transpose of a Matrix</a></li>
+
+
+                                                 </ul>
+                                             </li>
+                                         </ul>
+                                     </li>
+                                     
+        
                                      <li><a href="layouts-icon-sidebar.html">Sub-topic 2</a></li>
                                      <li><a href="layouts-boxed.html">Sub-topic 3</a></li>
                                      <li><a href="layouts-preloader.html">Sub-topic 4</a></li>

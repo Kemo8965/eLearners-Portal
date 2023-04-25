@@ -1,7 +1,7 @@
 <div class="navbar-header">
                     <div class="d-flex">
                         <!-- LOGO -->
-                        <div class="navbar-brand-box">
+                        <div class="navbar-brand-box nav-color">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
                                     <img src="assets/auth/images/logo-sm.png" alt="logo-sm" height="22">
@@ -15,8 +15,8 @@
                                 <span class="logo-sm">
                                     <img src="assets/auth/images/logo-sm.png" alt="logo-sm-light" height="22">
                                 </span>
-                                <span class="logo-lg">
-                                    <img src="assets/auth/images/logo-sm.png" alt="logo-light" height="20">
+                                <span class="logo-lg elp">
+                                    <img src="assets/auth/images/coa.png" alt="logo-light" height="25">
                                     eLearners Portal
                                 </span>
 
@@ -303,11 +303,18 @@
                             </div>
                         </div>
 
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
-                                <i class="ri-settings-2-line"></i>
-                            </button>
-                        </div>
+                        
             
                     </div>
                 </div>
+
+
+                <style>
+                    .nav-color{
+                        color: burlywood;
+                    }
+
+                    .elp{
+                        color: azure;
+                    }
+                </style>

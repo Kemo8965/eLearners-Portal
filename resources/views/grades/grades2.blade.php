@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Grade Options | eLearners Portal</title>
+        <title>GRADE OPTIONS </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-    <section>
-          <body>
-            <a href="/login"> <button  class="btn btn-primary fade pl-4">
-                 Logout
-            </button> </a>
-            
-            <h3 class="choice">Choose what Grade to view</h3>
-            
-        <section class="main">
-        <!-- <div class="card">
-            
-            <h4 class="grade-names">Choose what Grade to view</h4>
-            </div> -->
+    <body>
+          
 
-        <div class="card">
-           <a href="/grade10">
-           <img class="img-fluid" src="assets/auth/images/grade10.jpg" height="230" >
+            <div class="card">
+            <img class="img-fluid" src="assets/auth/images/grade10.jpg" height="230" >
 
             <h4 class="grade-names">Grade 10</h4>
-           </a>
             </div>
 
             <div class="card">
@@ -42,12 +33,11 @@
 
             <h4 class="grade-names">Grade 12</h4>
             </div>
-        </section>
             
-            
-    </body>
+        <script src="" async defer></script>
 
-    </section>
+
+    </body>
 
 </html>
 
@@ -55,53 +45,6 @@
    
 .grade-names{
     margin-left: 5rem;
-}
-
-.choice{
-    margin-left: 2.8rem;  
-}
-
-.fade {
-  background-color: beige;
-  box-shadow: 3px 3px 7px 2px rgba(0,0,0,.8);
-  font-family:'Times New Roman', Times, serif;
-  font-weight: 700;
-  font-size: medium;
-  width: 12%;
-  height: 10%;
-  border-radius: 0 15px 0 15px;
-  color: black;
-  transition: background-color 1s;
-  margin-left: 2.8rem;
-}
-
-.fade:hover {
-  background-color: #004363;
-  color: beige;
-}
-
-.fade:focus,
-.fade:active {
-  background-color: black;
-  transition: none;
-}
-   
-a{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    text-decoration: none;
-    color: black;
-}
-
-
-.main {
-    
-    width: 100%;
-    padding-left: 35px;
-    display: flex;
 }
 
 img {
@@ -143,7 +86,7 @@ img:hover {
 } */
 
 body {
-  background:beige;
+  background: #e8e9ba;
   display: grid;
   gap: 40px;
   height: 100vh;

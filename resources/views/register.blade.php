@@ -32,9 +32,9 @@
                                 <h4 class="login-title">
                                      The e-Learners Portal
                                 </h4>
-                                <a href="index.html" class="auth-logo">
-                                    <img src="assets/auth/images/flags/moe.jpg" height="30" class="logo-dark mx-auto" alt="">
-                                    <img src="assets/auth/images/flags/zambia.png" height="30" class="logo-light mx-auto" alt="">
+                                <a href="#" class="auth-logo">
+                                    <img src="assets/auth/images/coa.png" height="70" class="logo-dark mx-auto" alt="">
+                                    <img src="assets/auth/images/coa.png" height="70" class="logo-light mx-auto" alt="">
                                 </a>
                             </div>
                         </div>
