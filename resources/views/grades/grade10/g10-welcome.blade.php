@@ -1,28 +1,3 @@
-<!-- <!doctype html>
-<html lang="en">
-
-    <head>
-        
-        <meta charset="utf-8" />
-        <title>Outcomes | eLearners Portal</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-        <meta content="Themesdesign" name="author" />
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
-
-        <!-- Bootstrap Css -->
-        <link href="assets/auth/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="assets/auth/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="assets/auth/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-
-    </head>
-
-    <body data-topbar="dark">
-    
-    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
 
         <!-- Begin page -->
         <div id="layout-wrapper">
@@ -35,7 +10,7 @@
 
                         
                         
-                    <div class="row">
+                    <div id="welcome" class="row">
                             
         
                             <div class="col-xl-12">
@@ -193,12 +168,3 @@
                             
 
                         </div>
-                                        
-            
-                
-          
-
-      
-
-    </body>
-</html>

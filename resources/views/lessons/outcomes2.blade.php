@@ -1,4 +1,4 @@
-@includes('scripts.scripts')           
+          
                         
                     <div id="content" class="row">
                             
