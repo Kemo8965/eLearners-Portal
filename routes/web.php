@@ -53,13 +53,36 @@ Route::get('/videos', function () {
     return view('videos');
 });
 
-Route::get('/grade10', function () {
-    return view('grades.g10-dashboard');
-});
+
 
 Route::get('/grades', function () {
     return view('grades.grades');
 });
+
+Route::get('/grade10', function () {
+    return view('grades.grade10.g10-dashboard');
+});
+
+Route::get('/g10-dashboard', function () {
+    return view('grades.grade10.g10-welcome');
+});
+
+Route::get('/grade11', function () {
+    return view('grades.g11-dashboard');
+});
+
+Route::get('/grade12', function () {
+    return view('grades.g12-dashboard');
+});
+
+Route::get('/outcomes', function () {
+    return view('lessons.outcomes');
+});
+
+Route::get('/outcomes2', function () {
+    return view('lessons.outcomes2');
+});
+
 
 
 

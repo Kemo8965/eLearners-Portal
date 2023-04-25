@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="utf-8" />
-        <title>Cards | Upcube - Admin & Dashboard Template</title>
+        <title>Grades | eLearners Portal</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesdesign" name="author" />
@@ -29,6 +29,15 @@
             background-size: cover;
             background-position: center;
             }
+
+            .card{
+                border-radius: 15%;
+              
+            }
+
+            .card-img-fluid{
+                border-radius: 15%;
+            }
         </style>
 
     </head>
@@ -44,7 +53,7 @@
 <div class="row mx-4  auth-body-bg">
         <a href="/login" class="my-3 mt-5 right"> <i class="ri-arrow-left-circle-fill">Logout</i></a>
                             <div class="col-12">
-                                <h4 class="my-3 mt-5">Choice what grade to view</h4>
+                                <h4 class="my-3 mt-5">Choose what grade to view</h4>
                                
                                 <div class="card-group">
                                     <div class="card mb-4 mx-2">
@@ -57,18 +66,22 @@
                                        </a>
                                     </div>
                                     <div class="card mb-4 mx-2">
+                                        <a href="/grade11">
                                         <img class="card-img-top img-fluid" src="assets/auth/images/grade11.jpg" alt="Card image cap">
                                         <div class="card-body">
                                         <h4 class="card-title">Grade 11</h4>
                                            
                                         </div>
+                                        </a>
                                     </div>
                                     <div class="card mb-4 mx-2">
+                                        <a href="/grade12">
                                         <img class="card-img-top img-fluid" src="assets/auth/images/grade12.jpg" alt="Card image cap">
                                         <div class="card-body">
                                         <h4 class="card-title">Grade 12</h4>
                                             
                                         </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
