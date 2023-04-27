@@ -22,7 +22,7 @@
             <h4 class="grade-names">Choose what Grade to view</h4>
             </div> -->
 
-        <div class="card">
+        <div class="card rounded-sm">
            <a href="/grade10">
            <img class="img-fluid" src="assets/auth/images/grade10.jpg" height="230" >
 
@@ -57,6 +57,10 @@
     margin-left: 5rem;
 }
 
+.card{
+  border-radius: 10%;
+}
+
 .choice{
     margin-left: 2.8rem;  
 }
@@ -69,9 +73,9 @@
   font-size: medium;
   width: 12%;
   height: 10%;
-  border-radius: 0 15px 0 15px;
+  border-radius: 10px 15px 10px 15px;
   color: black;
-  transition: background-color 1s;
+  transition: background-color .4s;
   margin-left: 2.8rem;
 }
 
@@ -98,10 +102,14 @@ a:hover{
 
 
 .main {
-    
+    font-family: 'Nunito Sans';
     width: 100%;
     padding-left: 35px;
     display: flex;
+}
+
+.img-fluid{
+  border-radius: 5%;
 }
 
 img {
@@ -122,9 +130,10 @@ img {
     linear-gradient(90deg,var(--_c)) var(--_o) var(--_o);
   background-size: calc(100% - var(--_o)) calc(100% - var(--_o));
   background-repeat: no-repeat;
-  filter: grayscale(.4);
+  filter: grayscale(.5);
   transition: .3s;
   cursor: pointer;
+  border-radius: 5%;
 }
 
 
@@ -134,6 +143,7 @@ img:hover {
   background-position: 0px 0px;
   background-size: calc(100% - var(--offset)) calc(100% - var(--offset));
   filter: grayscale(0);
+  border-radius: 5%;
 }
 
 /* .card:hover {

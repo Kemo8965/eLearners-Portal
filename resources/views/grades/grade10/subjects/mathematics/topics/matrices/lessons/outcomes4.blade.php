@@ -7,7 +7,7 @@
                                 <div class="card">
                                     <div class="card-body">
         
-                                        <h4 class="card-title">Solving Equations with Indices</h4>
+                                        <h4 class="card-title">Find the inverse of a 2 by 2 matrix</h4>
                                         <p class="card-title-desc">This is where the description will be.</p>
         
                                         <!-- Nav tabs -->

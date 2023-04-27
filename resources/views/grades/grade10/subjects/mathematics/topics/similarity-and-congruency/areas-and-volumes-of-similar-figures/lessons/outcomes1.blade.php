@@ -7,7 +7,7 @@
                                 <div class="card">
                                     <div class="card-body">
         
-                                        <h4 class="card-title">Calculate the determinant of a 2 by 2 matrix</h4>
+                                        <h4 class="card-title">Calculate the length and area using a given scale and vice versa</h4>
                                         <p class="card-title-desc">This is where the description will be.</p>
         
                                         <!-- Nav tabs -->

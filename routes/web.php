@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers;
+use App\Http\Controllers\LessonController;
 use App\Http\Controllers\RegistrationController;
 use GuzzleHttp\Promise\Create;
 use Illuminate\Session\Store;
@@ -80,6 +81,23 @@ Route::get('/grade12', function () {
     return view('grades.g12-dashboard');
 });
 
+
+//---------------------------------GRADES OVERVIEW---------------------------------------//
+Route::get('/g10-english-dashboard', function () {
+    return view('grades.grade10.subjects.english.overview');
+});
+
+Route::get('/g10-math-dashboard', function () {
+    return view('grades.grade10.subjects.mathematics.topics.overview');
+});
+
+
+Route::get('/g10-chemistry-dashboard', function () {
+    return view('grades.grade10.subjects.chemistry.overview');
+});
+
+
+
 Route::get('/outcomes1', function () {
     return view('grades.grade10.subjects.mathematics.topics.index notation.indices.lessons.outcomes1');
 });
@@ -116,6 +134,41 @@ Route::get('/algebraOutcomes3', function () {
 Route::get('/matrixOutcomes1', function () {
     return view('grades.grade10.subjects.mathematics.topics.matrices.lessons.outcomes1');
 });
+
+Route::get('/multMatrixOutcomes1', function () {
+    return view('grades.grade10.subjects.mathematics.topics.matrices.lessons.outcomes2');
+});
+
+Route::get('/inverseMatrixOutcomes1', function($data){
+    return view('lesson')->with('data', $data);
+});
+
+Route::get('/inverseMatrixOutcomes2', function () {
+    return view('grades.grade10.subjects.mathematics.topics.matrices.lessons.outcomes4');
+});
+
+Route::get('/inverseMatrixOutcomes3', function () {
+    return view('grades.grade10.subjects.mathematics.topics.matrices.lessons.outcomes5');
+});
+
+//-----------------------SIMILARITY & CONGRUENCY------------------------------------
+Route::get('/ARPOutcomes1', function () {
+    return view('grades.grade10.subjects.mathematics.topics.similarity-and-congruency.application-of-ratio-and-proportion.lessons.outcomes1');
+});
+
+Route::get('/AVSFOutcomes1', function () {
+    return view('grades.grade10.subjects.mathematics.topics.similarity-and-congruency.areas-and-volumes-of-similar-figures.lessons.outcomes1');
+});
+
+Route::get('/AVSFOutcomes2', function () {
+    return view('grades.grade10.subjects.mathematics.topics.similarity-and-congruency.areas-and-volumes-of-similar-figures.lessons.outcomes2');
+});
+
+Route::get('/AVSFOutcomes3', function () {
+    return view('grades.grade10.subjects.mathematics.topics.similarity-and-congruency.areas-and-volumes-of-similar-figures.lessons.outcomes3');
+});
+
+
 
 
 

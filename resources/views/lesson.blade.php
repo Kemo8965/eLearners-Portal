@@ -1,3 +1,6 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
 <div class="col-lg-12">
 <h3>Rationale</h3>
     <div class="card">
@@ -5,9 +8,13 @@
             
             
             <div class="col-md-6">
-                <div class="card-body">
+                <div class="card-body" id="my-data">
                     <h5 class="card-title">LESSON TITLE</h5>
-                    <p class="card-text">LESSON RATIONALE</p>
+                    <p>Name: {{ $data['name'] }}</p>
+                    <p>Age: {{ $data['age'] }}</p>
+                    <p>Email: {{ $data['email'] }}</p>
+
+
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
 
